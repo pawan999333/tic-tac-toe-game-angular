@@ -1,0 +1,38 @@
+.heading{
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 900!important;
+  color: aliceblue;
+}
+
+table{
+  margin: auto;
+}
+
+
+.button-container{
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  margin: 10px 10px;
+}
+
+.button-container button{
+  background-color: rgb(53,53,237);
+  border-radius: 5px;
+  color: white;
+  padding: 10px 10px;
+  text-transform: uppercase;
+  border: none;
+}
+
+
+.green{
+  background-color: rgb(55,226,55);
+  color: black;
+}
+
+.red{
+  background-color: rgb(229,62,62);
+  color: black;
+}
