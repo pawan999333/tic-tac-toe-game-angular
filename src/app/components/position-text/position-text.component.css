@@ -24,3 +24,10 @@
   background-color: rgb(229,62,62);
   color: black;
 }
+
+@media (max-width: 500px) {
+  .text-container{
+    /* width: 200px; */
+    height: 129px !important;
+}
+}

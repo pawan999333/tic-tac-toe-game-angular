@@ -6,6 +6,7 @@
 }
 
 table{
+  width: 50%;
   margin: auto;
 }
 
@@ -35,4 +36,12 @@ table{
 .red{
   background-color: rgb(229,62,62);
   color: black;
+}
+
+@media (max-width: 500px) {
+  table {
+    width: 90% !important;
+    margin: auto;
+  }
+
 }
