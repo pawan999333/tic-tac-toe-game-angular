@@ -1,24 +1,24 @@
 <div class="board-container">
   <h1 class="heading">Tic Tac Toe Game</h1>
-  <table>
-    <tr>
-      <td (click)="gameService.changeGameState(0)"><app-position-text [textValue]="gameService.gameState[0]"></app-position-text></td>
-      <td (click)="gameService.changeGameState(1)"><app-position-text [textValue]="gameService.gameState[1]"
+  <table style="width: 50%;">
+    <tr style="width: 100%;">
+      <td style="width: 33.33%;" (click)="gameService.changeGameState(0)"><app-position-text [textValue]="gameService.gameState[0]"></app-position-text></td>
+      <td style="width: 33.33%;" (click)="gameService.changeGameState(1)"><app-position-text [textValue]="gameService.gameState[1]"
         ></app-position-text></td>
 
-      <td (click)="gameService.changeGameState(2)"><app-position-text [textValue]="gameService.gameState[2]"></app-position-text></td>
+      <td  style="width: 33.33%;"(click)="gameService.changeGameState(2)"><app-position-text [textValue]="gameService.gameState[2]"></app-position-text></td>
     </tr>
-    <tr>
-      <td (click)="gameService.changeGameState(3)"><app-position-text [textValue]="gameService.gameState[3]"></app-position-text></td>
-      <td (click)="gameService.changeGameState(4)"><app-position-text [textValue]="gameService.gameState[4]"></app-position-text></td>
+    <tr style="width: 100%;">
+      <td style="width: 33.33%;" (click)="gameService.changeGameState(3)"><app-position-text [textValue]="gameService.gameState[3]"></app-position-text></td>
+      <td style="width: 33.33%;" (click)="gameService.changeGameState(4)"><app-position-text [textValue]="gameService.gameState[4]"></app-position-text></td>
 
-      <td (click)="gameService.changeGameState(5)"><app-position-text [textValue]="gameService.gameState[5]"></app-position-text></td>
+      <td style="width: 33.33%;" (click)="gameService.changeGameState(5)"><app-position-text [textValue]="gameService.gameState[5]"></app-position-text></td>
     </tr>
-    <tr>
-      <td (click)="gameService.changeGameState(6)"><app-position-text [textValue]="gameService.gameState[6]"></app-position-text></td>
-      <td (click)="gameService.changeGameState(7)"><app-position-text [textValue]="gameService.gameState[7]"></app-position-text></td>
+    <tr style="width: 100%;">
+      <td style="width: 33.33%;" (click)="gameService.changeGameState(6)"><app-position-text [textValue]="gameService.gameState[6]"></app-position-text></td>
+      <td style="width: 33.33%;" (click)="gameService.changeGameState(7)"><app-position-text [textValue]="gameService.gameState[7]"></app-position-text></td>
 
-      <td (click)="gameService.changeGameState(8)"><app-position-text [textValue]="gameService.gameState[8]"></app-position-text></td>
+      <td style="width: 33.33%;" (click)="gameService.changeGameState(8)"><app-position-text [textValue]="gameService.gameState[8]"></app-position-text></td>
     </tr>
   </table>
 
